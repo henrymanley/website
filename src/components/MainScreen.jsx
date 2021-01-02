@@ -12,11 +12,11 @@ import { positions } from '@material-ui/system';
 const useStyles = makeStyles((theme) => ({
     root: {
         '& > *': {
-            margin: theme.spacing(1),
+            marginRight: 16,
         },
     },
     title: {
-        color: 'rgb(245, 239, 237)',
+        color: 'rgb(255, 255, 255)',
         fontSize: 35,
         marginRight: 16,
         marginLeft: -12
@@ -47,7 +47,7 @@ export default function OutlinedButtons() {
                     <div className={classes.root}>
                         <Button variant="primary" className={classes.navBar}
                         style = {{borderRadius: 35,
-                            backgroundColor: "#E03616",
+                            backgroundColor: "#e03616",
                             padding: "10px 30px",
                             fontSize: "14px"
                         }}>
@@ -55,7 +55,7 @@ export default function OutlinedButtons() {
                         </Button>
                         <Button variant="primary"  className={classes.navBar}
                         style = {{borderRadius: 35,
-                            backgroundColor: "#772D8B",
+                            backgroundColor: "#772d8b",
                             padding: "10px 30px",
                             fontSize: "14px"
                         }}>
@@ -63,7 +63,7 @@ export default function OutlinedButtons() {
                         </Button>
                         <Button variant="primary"  className={classes.navBar}
                         style = {{borderRadius: 35,
-                            backgroundColor: "#5465FF",
+                            backgroundColor: "#5465ff",
                             padding: "10px 30px",
                             fontSize: "14px"
                         }}>
@@ -71,7 +71,7 @@ export default function OutlinedButtons() {
                         </Button>
                         <Button variant="primary"  className={classes.navBar}
                         style = {{borderRadius: 35,
-                            backgroundColor: "#21A0C7",
+                            backgroundColor: "#06A77D",
                             padding: "10px 30px",
                             fontSize: "14px"
                         }}>

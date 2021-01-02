@@ -8,15 +8,18 @@ import Chip from '@material-ui/core/Chip';
 export default function DataProjects(){
     return (
         <Typography style = {{
-            marginLeft: '12px',
-            marginRight: 'auto'
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            backgroundColor: 'rgb(255, 255, 255)',
+            padding: '10px'
+
         }}
         >
-            <Box textAlign="left" fontWeight="fontWeightBold" fontSize="h5.fontSize" m={1}>
-                Data Projects
+            <Box textAlign="left" fontWeight="fontWeightBold" fontSize="h5.fontSize" m={1} marginLeft='12px'>
+                Data Projects 📈
             </Box>
 
-            <Box textAlign="left" m={1}>
+            <Box textAlign="left" marginLeft='12px' m={1}>
                 Frogger
                 <p style={{
                     fontStyle:'italic',
@@ -39,7 +42,7 @@ export default function DataProjects(){
             </div>
 
 
-            <Box textAlign="left" m={1}>
+            <Box textAlign="left" marginLeft='12px' m={1}>
                 Incubating fear? How news outlets encourage and spread talk of global disease.
                 <p style={{
                     fontStyle:'italic',
@@ -65,7 +68,7 @@ export default function DataProjects(){
                 <Divider />
             </div>
 
-            <Box textAlign="left" m={1}>
+            <Box textAlign="left" marginLeft='12px' m={1}>
                 Fixed-Effects Prediction Model for COVID-19 Shelter-in-Place Policies on Daily Ozone Levels.
                 <p style={{
                     fontStyle:'italic',
@@ -84,12 +87,7 @@ export default function DataProjects(){
                     <li>Designed fixed-effects event-study model to measure the effects of statewide COVID-19 shelter-in-place policies on ozone levels.</li>
                     <li>Discovered a strong-correlation between decrease in county-level ozone levels and shelter in place policies in large urban areas.</li>
                 </ul>
-                <Divider />
             </div>
-
-
-
-
         </Typography>
     );
 }

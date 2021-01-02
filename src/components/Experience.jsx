@@ -2,33 +2,31 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
-import Highlighter from "react-highlight-words";
+import Chip from '@material-ui/core/Chip';
 
 export default function TextAlignment() {
     return (
         <Typography style = {{
-            marginLeft: '12px',
-            marginRight: 'auto'
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            backgroundColor: 'rgb(255, 255, 255)',
+            padding: '10px'
         }}
             component="div">
             <Box textAlign="left" fontWeight="fontWeightBold" fontSize="h5.fontSize" m={1}>
-                Work Experience
+                Work Experience 🔬
             </Box>
 
-            <Highlighter
-                highlightClassName="YourHighlightClass"
-                searchWords={["and", "or", "the"]}
-                autoEscape={true}
-                textToHighlight="The dog is chasing the cat. Or perhaps they're just playing?"
-            />
-
-            <Box textAlign="left" m={1}>
-                Research Assistant🔬
+            <Box textAlign="left" marginLeft='12px' m={1}>
+                Research Assistant
                 <p style={{
                     fontStyle:'italic',
                     fontSize: "12px"}}>
                     Dr. Douglas Miller, Cornell Department of Economics, Ithaca, NY
                 </p>
+                <Chip label="Stata" />
+                <Chip label="Python" />
+                <Chip label="Google Cloud" />
             </Box>
 
             <div fontWeight="fontWeightRegular">
@@ -45,14 +43,15 @@ export default function TextAlignment() {
                 <Divider />
             </div>
 
-
-            <Box textAlign="left" m={1}>
-                Co-Founder💡
+            <Box textAlign="left" marginLeft='12px' m={1}>
+                Co-Founder
                 <p style={{
                     fontStyle:'italic',
                     fontSize: "12px"}}>
                     <a href={"https://www.polici.org/"}>Polici</a>
                 </p>
+                <Chip label="Python" />
+                <Chip label="Stata" />
             </Box>
 
             <div fontWeight="fontWeightRegular">
@@ -70,13 +69,14 @@ export default function TextAlignment() {
                 <Divider />
             </div>
 
-            <Box textAlign="left" m={1}>
-                Research Assistant🔬
+            <Box textAlign="left" marginLeft='12px' m={1}>
+                Research Assistant
                 <p style={{
                     fontStyle:'italic',
                     fontSize: "12px"}}>
                     Dr. Christopher Wildeman, Cornell Department of Policy Analysis and Management, Ithaca, NY
                 </p>
+                <Chip label="Stata" />
             </Box>
 
             <div>
@@ -93,13 +93,15 @@ export default function TextAlignment() {
                 <Divider />
             </div>
 
-            <Box textAlign="left" m={1}>
-                Summer Data Science Intern📈
+            <Box textAlign="left" marginLeft='12px' m={1}>
+                Summer Data Science Intern
                 <p style={{
                     fontStyle:'italic',
                     fontSize: "12px"}}>
                     Dr. Peter Enns, Roper Center for Public Opinion Research, Ithaca, NY
                 </p>
+                <Chip label="R" />
+                <Chip label="Stata" />
             </Box>
 
 
@@ -117,7 +119,6 @@ export default function TextAlignment() {
                     </li>
                 </ul>
             </div>
-            <Divider />
         </Typography>
     );
 }
