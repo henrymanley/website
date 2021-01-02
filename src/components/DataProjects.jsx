@@ -2,7 +2,6 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
-import Highlighter from "react-highlight-words";
 import Chip from '@material-ui/core/Chip';
 
 export default function DataProjects(){

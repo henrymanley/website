@@ -1,6 +1,5 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
 import '../css/AboutMe.css';
 import Chip from '@material-ui/core/Chip';
 import Divider from '@material-ui/core/Divider';
