@@ -29,7 +29,7 @@ export default function AboutMe() {
                 autoEscape={true}
                 textToHighlight="My name’s Henry and I am a Junior at Cornell University studying
                 Policy Analysis and Management. I am interested in data visualization,
-                algorithm design, and causal inference."
+                entrepreneurship, and causal inference."
             />
             <Divider />
             <p className="infoitems">
