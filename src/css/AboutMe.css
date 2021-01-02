@@ -1,7 +1,7 @@
 div.aboutblock{
     display: flex;
     margin: auto;
-    height: calc(2*width);
+    height: 100vh;
     width: 50%;
     background-color: white;
     text-align: left;
