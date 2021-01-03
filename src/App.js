@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe";
 import Tab from "./components/Tab";
 import FootInfo from "./components/FootInfo";
 import ChicagoCrime from "./components/ChicagoCrime";
+import Carousel from "./components/Carousel";
 
 const theme = createMuiTheme({
     typography: {
@@ -21,8 +22,7 @@ function App() {
          <header className="App-header">
              <MainScreen></MainScreen>
          </header>
-            <AboutMe></AboutMe>
-            <ChicagoCrime></ChicagoCrime>
+            <Carousel></Carousel>
             <Tab></Tab>
         </div>
           <footer>

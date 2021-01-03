@@ -68,11 +68,6 @@ export default function AboutMe() {
                             color: 'black'
                         }} />
                     </IconButton>
-                    <IconButton>
-                        <ChevronRightIcon style = {{
-                            padding: "10px 5px"
-                        }} />
-                    </IconButton>
                 </p>
             </p>
         </Typography>

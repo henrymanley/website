@@ -3,11 +3,11 @@
 
 .App {
   text-align: center;
-  background-color: #5465FF;
+  background-color: #C9C8D1;
 }
 
 .App-header {
-  background-color: #5465FF;
+  background-color: #C9C8D1;
   min-height: 15vh;
   display: flex;
   flex-direction: column;
@@ -16,4 +16,13 @@
   font-family: 'JetBrains Mono', sans-serif;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.carousel__container {
+  /* max-width constrains the width of our carousel to 550, but shrinks on small devices */
+  max-width: 550px;
+  margin: auto;
+}
+
+.carousel__inner-slide {
+  margin: 20px;
 }

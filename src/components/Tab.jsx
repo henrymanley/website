@@ -64,7 +64,7 @@ export default function SimpleTabs() {
             <AppBar position="static">
                 <Tabs value={value} onChange={handleChange} TabIndicatorProps={{style: {background:'#E03616'}}}
                 style={{
-                    backgroundColor: "#06A77D"
+                    backgroundColor: "#5465ff"
                 }}>
                     <Tab label="Data Projects" {...a11yProps(0)} />
                     <Tab label="Work Experience" {...a11yProps(1)} />

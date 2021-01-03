@@ -1,14 +1,14 @@
 div.aboutblock{
     display: flex;
-    margin: auto;
-    height: 50%;
-    width: 50%;
     background-color: white;
     text-align: left;
     font-size: 12px;
     padding: 10px;
-    margin-bottom: 25px;
     border-radius: 15px;
+}
+
+.aboutblock:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 p.infoitems{
@@ -24,7 +24,6 @@ p.infoitems{
             typing 3.5s steps(40, end),
             blink-caret .75s step-end infinite;
 }
-
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }

@@ -31,7 +31,8 @@ export default function DataProjects(){
             <div fontWeight="fontWeightRegular">
                 <ul style = {{
                     fontSize: "12px",
-                    textAlign: "left"
+                    textAlign: "left",
+                    paddingBottom:"12px"
                 }}
                 >
                     <li>Coded the functionality and gameplay of Frogger in Python.</li>
@@ -41,11 +42,12 @@ export default function DataProjects(){
             </div>
 
 
-            <Box textAlign="left" marginLeft='12px' m={1}>
+            <Box textAlign="left" marginLeft='12px' m={1} paddingTop='12px'>
                 Incubating fear? How news outlets encourage and spread talk of global disease.
                 <p style={{
                     fontStyle:'italic',
-                    fontSize: "12px"}}>
+                    fontSize: "12px",
+                   }}>
                     Jun 2020 – Sep 2020
                 </p>
                 <Chip  label="Python" />
@@ -57,7 +59,8 @@ export default function DataProjects(){
             <div fontWeight="fontWeightRegular">
                 <ul style = {{
                     fontSize: "12px",
-                    textAlign: "left"
+                    textAlign: "left",
+                    paddingBottom:"12px"
                 }}
                 >
                     <li>Scraped Tweets from major news companies in R to build master data set for sentiment analysis.</li>
@@ -67,7 +70,7 @@ export default function DataProjects(){
                 <Divider />
             </div>
 
-            <Box textAlign="left" marginLeft='12px' m={1}>
+            <Box textAlign="left" marginLeft='12px' m={1} paddingTop='12px'>
                 Fixed-Effects Prediction Model for COVID-19 Shelter-in-Place Policies on Daily Ozone Levels.
                 <p style={{
                     fontStyle:'italic',

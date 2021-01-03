@@ -26,13 +26,15 @@ export default function TextAlignment() {
                 </p>
                 <Chip label="Stata" />
                 <Chip label="Python" />
+                <Chip label="Pandas" />
                 <Chip label="Google Cloud" />
             </Box>
 
             <div fontWeight="fontWeightRegular">
                 <ul style = {{
                     fontSize: "12px",
-                    textAlign: "left"
+                    textAlign: "left",
+                    paddingBottom: "12px"
                 }}
                 >
                     <li>Cleaned, scored, and visualized never-seen-before metadata on War on Poverty programs in with Pandas and Stata.</li>
@@ -43,7 +45,7 @@ export default function TextAlignment() {
                 <Divider />
             </div>
 
-            <Box textAlign="left" marginLeft='12px' m={1}>
+            <Box textAlign="left" marginLeft='12px' m={1} paddingTop='12px'>
                 Co-Founder
                 <p style={{
                     fontStyle:'italic',
@@ -58,7 +60,8 @@ export default function TextAlignment() {
                 <ul style = {{
                     fontSize: "12px",
                     fontWeight: "fontWeightRegular",
-                    textAlign: "left"
+                    textAlign: "left",
+                    paddingBottom: "12px"
                 }}
                 >
                     <li>Founded a start-up that uses a recurrent neural network to summarize and visualize academic research findings to lay audiences.</li>
@@ -69,7 +72,7 @@ export default function TextAlignment() {
                 <Divider />
             </div>
 
-            <Box textAlign="left" marginLeft='12px' m={1}>
+            <Box textAlign="left" marginLeft='12px' m={1} paddingTop='12px'>
                 Research Assistant
                 <p style={{
                     fontStyle:'italic',
@@ -83,7 +86,8 @@ export default function TextAlignment() {
                 <ul style = {{
                     fontSize: "12px",
                     fontWeight: "fontWeightRegular",
-                    textAlign: "left"
+                    textAlign: "left",
+                    paddingBottom: "12px"
                 }}
                 >
                     <li>Devised, coded, and computed statistical power on a survey conducted on vulnerable youths in the NYC Foster Care system.</li>
@@ -93,7 +97,7 @@ export default function TextAlignment() {
                 <Divider />
             </div>
 
-            <Box textAlign="left" marginLeft='12px' m={1}>
+            <Box textAlign="left" marginLeft='12px' m={1} paddingTop='12px'>
                 Summer Data Science Intern
                 <p style={{
                     fontStyle:'italic',

@@ -52,9 +52,10 @@ export default function OutlinedButtons() {
                         </Button>
                         <Button variant="primary"  className={classes.navBar}
                         style = {{borderRadius: 35,
-                            backgroundColor: "#772d8b",
+                            backgroundColor: "#FFFFFF",
                             padding: "10px 30px",
-                            fontSize: "14px"
+                            fontSize: "14px",
+                            color:'rgb(7, 7, 7)'
                         }}>
                             Data Projects
                         </Button>
