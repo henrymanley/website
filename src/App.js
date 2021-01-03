@@ -4,6 +4,7 @@ import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import AboutMe from "./components/AboutMe";
 import Tab from "./components/Tab";
 import FootInfo from "./components/FootInfo";
+import ChicagoCrime from "./components/ChicagoCrime";
 
 const theme = createMuiTheme({
     typography: {
@@ -21,6 +22,7 @@ function App() {
              <MainScreen></MainScreen>
          </header>
             <AboutMe></AboutMe>
+            <ChicagoCrime></ChicagoCrime>
             <Tab></Tab>
         </div>
           <footer>

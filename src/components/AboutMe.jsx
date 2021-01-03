@@ -9,7 +9,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import IconButton from '@material-ui/core/IconButton';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-
+import ChicagoCrime from "./ChicagoCrime";
 
 export default function AboutMe() {
     return (
@@ -34,7 +34,7 @@ export default function AboutMe() {
             <Divider />
             <p className="infoitems">
                 <b>Listening to</b> <br />
-                Dayglow, Daniel Caeser, Rex Orange County, Bon Iver <br />
+                Dayglow, Daniel Caesar, Rex Orange County, Bon Iver <br />
                 <br /> <b>Hobbies</b> <br />
                 Hiking the Adirondacks, Jazz Piano, Road Running <br />
                 <br /> <b>Book of 2020</b> <br />
@@ -50,19 +50,22 @@ export default function AboutMe() {
                 <Chip label="React" />
                 <br />
                 <p>
-                    <IconButton>
-                        <EmailIcon  style = {{
-                            padding: "10px 5px"
+                    <IconButton target="_blank" href="mailto:hjm67@cornell.edu">
+                        <EmailIcon style = {{
+                            padding: "10px 5px",
+                            color: 'black'
                         }}/>
                     </IconButton>
-                    <IconButton>
+                    <IconButton target="_blank" href="https://github.com/hmhacks">
                         <GitHubIcon style = {{
-                            padding: "10px 5px"
+                            padding: "10px 5px",
+                            color: 'black'
                         }}/>
                     </IconButton>
-                    <IconButton>
+                    <IconButton target="_blank" href="https://www.linkedin.com/in/henry-manley-681213173/">
                         <LinkedInIcon style = {{
-                            padding: "10px 5px"
+                            padding: "10px 5px",
+                            color: 'black'
                         }} />
                     </IconButton>
                     <IconButton>

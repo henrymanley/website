@@ -20,24 +20,28 @@ export default function ContactMe(){
                 <p style={{ fontSize: "14px"}}
                 >Email: <a href ="mailto:hjm67@cornell.edu">hjm67@cornell.edu</a></p>
                 <p>
-                    <IconButton>
+                    <IconButton target="_blank" href="https://www.linkedin.com/in/henry-manley-681213173/">
                         <LinkedInIcon  style = {{
-                            padding: "10px 5px"
+                            padding: "10px 5px",
+                            color: 'black'
                         }}/>
                     </IconButton>
-                    <IconButton>
+                    <IconButton target="_blank" href="https://www.instagram.com/henrymanley">
                         <InstagramIcon style = {{
-                            padding: "10px 5px"
+                            padding: "10px 5px",
+                            color: 'black'
                         }}/>
                     </IconButton>
-                    <IconButton>
+                    <IconButton target="_blank" href="https://github.com/hmhacks">
                         <GitHubIcon style = {{
-                            padding: "10px 5px"
+                            padding: "10px 5px",
+                            color: 'black'
                         }} />
                     </IconButton>
-                    <IconButton>
+                    <IconButton target="_blank" href="https://www.facebook.com/trea.herty.3">
                         <FacebookIcon style = {{
-                            padding: "10px 5px"
+                            padding: "10px 5px",
+                            color: 'black'
                         }} />
                     </IconButton>
 
