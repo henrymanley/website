@@ -4,7 +4,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import Link from '@material-ui/core/Link';
+import { Link } from 'react-router-dom';
 import DataProjects from "./DataProjects";
 
 const useStyles = makeStyles((theme) => ({
@@ -43,13 +43,14 @@ export default function OutlinedButtons() {
                     </Typography>
                     <div className={classes.root}>
                         <Button variant="primary" className={classes.navBar}
-                        style = {{borderRadius: 35,
-                            backgroundColor: "#e03616",
-                            padding: "10px 30px",
-                            fontSize: "14px"
-                        }}>
+                                style = {{borderRadius: 35,
+                                    backgroundColor: "#e03616",
+                                    padding: "10px 30px",
+                                    fontSize: "14px"
+                                }}>
                             About Me
                         </Button>
+
                         <Button variant="primary"  className={classes.navBar}
                         style = {{borderRadius: 35,
                             backgroundColor: "#FFFFFF",
@@ -81,3 +82,5 @@ export default function OutlinedButtons() {
         </div>
     );
 }
+
+

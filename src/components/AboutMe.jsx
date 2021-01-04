@@ -8,7 +8,6 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import IconButton from '@material-ui/core/IconButton';
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ChicagoCrime from "./ChicagoCrime";
 
 export default function AboutMe() {
@@ -22,15 +21,11 @@ export default function AboutMe() {
             <div className="typewriter">
                 <h1>Hi there.</h1>
             </div>
-
-            <Highlighter
-                highlightClassName="YourHighlightClass"
-                searchWords={["Henry", "Cornell University", "the"]}
-                autoEscape={true}
-                textToHighlight="My name’s Henry and I am a Junior at Cornell University studying
+            <p>My name’s Henry and I am a Junior at Cornell University studying
                 Policy Analysis and Management. I am interested in data visualization,
-                entrepreneurship, and causal inference."
-            />
+                entrepreneurship, and causal inference.
+            </p>
+
             <Divider />
             <p className="infoitems">
                 <b>Listening to</b> <br />

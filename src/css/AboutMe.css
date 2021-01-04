@@ -5,6 +5,7 @@ div.aboutblock{
     font-size: 12px;
     padding: 10px;
     border-radius: 15px;
+    font-family: "JetBrains Mono";
 }
 
 .aboutblock:hover {
