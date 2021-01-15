@@ -17,7 +17,8 @@ export default class extends React.Component {
             >
                 <Slider>
                     <Slide index={0} style={{
-                        margin:'20px'}}
+                        margin:'20px',
+                    }}
                     >
                         <AboutMe></AboutMe>
                     </Slide>
