@@ -3,6 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import '../css/AboutMe.css';
 import Divider from '@material-ui/core/Divider';
 import asset from '../assets/asset.png';
+import person from '../assets/person.png';
 
 export default function AboutMe() {
     return (
@@ -26,9 +27,27 @@ export default function AboutMe() {
                     our algorithms, we've stumbled upon some really interesting work we think you should
                     know about. </p>
                 <br />
-                <p> <a href="https://www.polici.org/"> Check Us Out </a> 🚀</p>
-                <p> <a href="https://www.polici.org/welcome">Get Our Newsletter</a> 📨</p>
-                <p>Polici In The News 👀</p>
+
+                <div style={{width:'50%',
+                    float: 'left'
+                }}>
+                    <p> <a href="https://www.polici.org/"> Check Us Out </a> 🚀</p>
+                    <p> <a href="https://www.polici.org/welcome">Get Our Newsletter</a> 📨</p>
+                    <p>Polici In The News 👀</p>
+                </div>
+                    <div style={{width:'50%', overflow: 'hidden', backgroundColor: 'blue'}}>
+                        <a href="https://www.tassakul.com/">
+                            <img  alt ="Polici Cartoon" src={person} style={{
+                                width: '300px',
+                                height: '150px',
+                                right: '50px',
+                                bottom: '62px',
+                                position: 'absolute'
+                            }} />
+                        </a>
+
+                </div>
+
             </Typography>
         </div>
     );

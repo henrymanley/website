@@ -14,10 +14,14 @@ export default class extends React.Component {
                 visibleSlides={2}
                 infinite={true}
                 isIntrinsicHeight={true}
+                isPlaying={true}
+                trueinterval-={1000}
+                dragEnabled ={true}
+                touchEnabled ={true}
             >
                 <Slider style={{
-                    marginTop:'20px',
-                    marginBottom:'20px',
+                    marginTop:'40px',
+                    marginBottom:'40px',
                     }}>
                     <Slide index={0}>
                         <AboutMe />
