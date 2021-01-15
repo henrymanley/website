@@ -26,3 +26,7 @@
 .carousel__inner-slide {
   margin: 20px;
 }
+
+.image:hover{
+  opacity: 0.6;
+}

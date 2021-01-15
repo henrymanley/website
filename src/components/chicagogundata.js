@@ -1,5 +1,4 @@
-[
-  {
+{
     "date": "01jan2020",
     "cumcrimes": 15,
     "cumdeaths": ""
@@ -1544,4 +1543,4 @@
     "cumcrimes": 5389,
     "cumdeaths": ""
   }
-]
+}

@@ -2,8 +2,8 @@ import React from 'react';
 import { CarouselProvider, Slider, Slide } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import AboutMe from "./AboutMe";
-import ChicagoCrime from "./ChicagoCrime";
-import Covid19 from "./Covid19";
+import Headshot from "./Headshot";
+import Polici from "./Polici";
 import '../css/AboutMe.css';
 
 export default class extends React.Component {
@@ -24,12 +24,12 @@ export default class extends React.Component {
                     <Slide index={1} style={{
                         margin:'20px'
                     }}>
-                        <ChicagoCrime></ChicagoCrime>
+                        <Headshot></Headshot>
                     </Slide>
                     <Slide index={2} style={{
                         margin:'20px'}}
                     >
-                        <Covid19></Covid19>
+                        <Polici></Polici>
                     </Slide>
                 </Slider>
             </CarouselProvider>

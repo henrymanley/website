@@ -9,44 +9,46 @@ import IconButton from '@material-ui/core/IconButton';
 
 export default function ContactMe(){
     return (
-        <Typography style = {{
-            marginLeft: '12px',
-            marginRight: 'auto',
-            backgroundColor: 'rgb(255, 255, 255)'
-        }}
-        >
-            <Box textAlign="left" fontWeight="fontWeightBold" fontSize="h5.fontSize" m={1}>
-                Contact ✉️
-                <p style={{ fontSize: "14px"}}
-                >Email: <a href ="mailto:hjm67@cornell.edu">hjm67@cornell.edu</a></p>
-                <p>
-                    <IconButton target="_blank" href="https://www.linkedin.com/in/henry-manley-681213173/">
-                        <LinkedInIcon  style = {{
-                            padding: "10px 5px",
-                            color: 'black'
-                        }}/>
-                    </IconButton>
-                    <IconButton target="_blank" href="https://www.instagram.com/henrymanley">
-                        <InstagramIcon style = {{
-                            padding: "10px 5px",
-                            color: 'black'
-                        }}/>
-                    </IconButton>
-                    <IconButton target="_blank" href="https://github.com/hmhacks">
-                        <GitHubIcon style = {{
-                            padding: "10px 5px",
-                            color: 'black'
-                        }} />
-                    </IconButton>
-                    <IconButton target="_blank" href="https://www.facebook.com/trea.herty.3">
-                        <FacebookIcon style = {{
-                            padding: "10px 5px",
-                            color: 'black'
-                        }} />
-                    </IconButton>
+        <div id="contact">
+            <Typography style = {{
+                marginLeft: '12px',
+                marginRight: 'auto',
+                backgroundColor: 'rgb(255, 255, 255)'
+            }}
+            >
+                <Box textAlign="left" fontWeight="fontWeightBold" fontSize="h5.fontSize" m={1}>
+                    Contact ✉️
+                    <p style={{ fontSize: "14px"}}
+                    >Email: <a href ="mailto:hjm67@cornell.edu">hjm67@cornell.edu</a></p>
+                    <p>
+                        <IconButton target="_blank" href="https://www.linkedin.com/in/henry-manley-681213173/">
+                            <LinkedInIcon  style = {{
+                                padding: "10px 5px",
+                                color: 'black'
+                            }}/>
+                        </IconButton>
+                        <IconButton target="_blank" href="https://www.instagram.com/henrymanley">
+                            <InstagramIcon style = {{
+                                padding: "10px 5px",
+                                color: 'black'
+                            }}/>
+                        </IconButton>
+                        <IconButton target="_blank" href="https://github.com/hmhacks">
+                            <GitHubIcon style = {{
+                                padding: "10px 5px",
+                                color: 'black'
+                            }} />
+                        </IconButton>
+                        <IconButton target="_blank" href="https://www.facebook.com/trea.herty.3">
+                            <FacebookIcon style = {{
+                                padding: "10px 5px",
+                                color: 'black'
+                            }} />
+                        </IconButton>
+                    </p>
+                </Box>
+            </Typography>
+        </div>
 
-                </p>
-            </Box>
-        </Typography>
     );
 }

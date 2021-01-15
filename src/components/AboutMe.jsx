@@ -8,7 +8,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import IconButton from '@material-ui/core/IconButton';
-import ChicagoCrime from "./ChicagoCrime";
+import Headshot from "./Headshot";
 
 export default function AboutMe() {
     return (
@@ -18,11 +18,9 @@ export default function AboutMe() {
             marginRight: 'auto'
         }}
         >
-            <div className="typewriter">
-                <h1>Hi there.</h1>
-            </div>
+            <h1>Hi there.</h1>
             <p>My name’s Henry and I am a Junior at Cornell University studying
-                Policy Analysis and Management. I am interested in data visualization,
+                Policy Analysis and Management. I am interested in data science,
                 entrepreneurship, and causal inference.
             </p>
 

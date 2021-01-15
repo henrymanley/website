@@ -4,7 +4,7 @@ import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import AboutMe from "./components/AboutMe";
 import Tab from "./components/Tab";
 import FootInfo from "./components/FootInfo";
-import ChicagoCrime from "./components/ChicagoCrime";
+import ChicagoCrime from "./components/Headshot";
 import Carousel from "./components/Carousel";
 
 const theme = createMuiTheme({
