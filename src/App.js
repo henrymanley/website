@@ -1,11 +1,10 @@
 import './css/App.css';
 import MainScreen from './components/MainScreen';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import AboutMe from "./components/AboutMe";
 import Tab from "./components/Tab";
 import FootInfo from "./components/FootInfo";
-import ChicagoCrime from "./components/Headshot";
 import Carousel from "./components/Carousel";
+import Particles from "./components/Particles";
 
 const theme = createMuiTheme({
     typography: {
@@ -17,18 +16,28 @@ const theme = createMuiTheme({
 
 function App() {
   return (
-      <ThemeProvider theme={theme}>
-        <div className="App">
-         <header className="App-header">
-             <MainScreen></MainScreen>
-         </header>
-            <Carousel></Carousel>
-            <Tab></Tab>
-        </div>
-          <footer>
-              <FootInfo></FootInfo>
-          </footer>
-      </ThemeProvider>
+          <ThemeProvider theme={theme}>
+              <div className="App">
+                  <Particles className="particles" />
+                  <div style={{
+                      position: "absolute",
+                      top: 0,
+                      left: 0,
+                      width: "100%",
+                      height: "100%"
+                  }}>
+                      <header>
+                          <MainScreen />
+                      </header>
+                      <Carousel className="carousel" />
+                      <Tab />
+                      <footer className="App-footer">
+                          <FootInfo />
+                      </footer>
+                  </div>
+              </div>
+          </ThemeProvider>
+
   );
 }
 

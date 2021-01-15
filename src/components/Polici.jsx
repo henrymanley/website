@@ -12,13 +12,12 @@ export default function AboutMe() {
                 marginRight: 'auto'
             }}
             >
-                <img src={asset} style={{
+                <img  alt ="Polici Logo" src={asset} style={{
                     width: '147px',
                     height: '60px',
                     borderRadius:15,
                     padding: '10px'
-
-                }}></img>
+                }} />
                 <p> <i>Bringing Data to Your Day In Under Three Minutes.</i></p>
                 <Divider />
                 <p>

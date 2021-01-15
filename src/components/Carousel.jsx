@@ -15,22 +15,24 @@ export default class extends React.Component {
                 infinite={true}
                 isIntrinsicHeight={true}
             >
-                <Slider>
-                    <Slide index={0} style={{
-                        margin:'20px',
-                    }}
-                    >
-                        <AboutMe></AboutMe>
+                <Slider style={{
+                    marginTop:'20px',
+                    marginBottom:'20px',
+                    }}>
+                    <Slide index={0}>
+                        <AboutMe />
                     </Slide>
                     <Slide index={1} style={{
-                        margin:'20px'
+                        marginLeft:'20px',
+                        paddingRight: '20px'
                     }}>
-                        <Headshot></Headshot>
+                        <Headshot />
                     </Slide>
                     <Slide index={2} style={{
-                        margin:'20px'}}
+                        margin:'20px',
+                        paddingRight: '20px'}}
                     >
-                        <Polici></Polici>
+                        <Polici />
                     </Slide>
                 </Slider>
             </CarouselProvider>
