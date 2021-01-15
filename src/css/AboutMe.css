@@ -36,11 +36,3 @@ p.infoitems{
     from, to { border-color: transparent }
     50% { border-color: orange; }
 }
-
-div.hamburger{
-    text-align: left;
-}
-
-.hamburger-text{
-    padding: 10px;
-}

@@ -13,12 +13,15 @@ export default function AboutMe() {
                 marginRight: 'auto'
             }}
             >
-                <img  alt ="Polici Logo" src={asset} style={{
-                    width: '147px',
-                    height: '60px',
-                    borderRadius:15,
-                    padding: '10px'
-                }} />
+                <a href="https://www.polici.org/" className="image">
+                    <img  alt ="Polici Logo" src={asset} style={{
+                        width: '147px',
+                        height: '60px',
+                        borderRadius:15,
+                        padding: '10px'
+                    }} />
+                </a>
+
                 <p> <i>Bringing Data to Your Day In Under Three Minutes.</i></p>
                 <Divider />
                 <p>
@@ -36,12 +39,12 @@ export default function AboutMe() {
                     <p>Polici In The News 👀</p>
                 </div>
                     <div style={{width:'50%', overflow: 'hidden', backgroundColor: 'blue'}}>
-                        <a href="https://www.tassakul.com/">
+                        <a href="https://www.tassakul.com/" className="image">
                             <img  alt ="Polici Cartoon" src={person} style={{
                                 width: '300px',
                                 height: '150px',
-                                right: '50px',
-                                bottom: '62px',
+                                right: '20px',
+                                bottom: '100px',
                                 position: 'absolute'
                             }} />
                         </a>

@@ -4,10 +4,23 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 import AboutMe from "./AboutMe";
 import Headshot from "./Headshot";
 import Polici from "./Polici";
+// import sizeMe from 'react-sizeme'
 import '../css/AboutMe.css';
 
-export default class extends React.Component {
-    render() {
+
+// function MyComponent ({ size }) {
+//     const { height } = size.bounds;
+//
+//     if (height > 300) {
+//         return <div></div>
+//     }
+//     else {
+//         return <div></div>
+//     }
+// }
+// export default sizeMe()(MyComponent)
+
+export default function horizontal(){
         return (
             <CarouselProvider
                 totalSlides={3}
@@ -33,7 +46,8 @@ export default class extends React.Component {
                         <Headshot />
                     </Slide>
                     <Slide index={2} style={{
-                        margin:'20px',
+                        marginLeft:'20px',
+                        marginRight:'20px',
                         paddingRight: '20px'}}
                     >
                         <Polici />
@@ -41,6 +55,5 @@ export default class extends React.Component {
                 </Slider>
             </CarouselProvider>
         );
-    }
 }
 

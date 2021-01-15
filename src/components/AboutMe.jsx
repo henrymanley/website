@@ -26,9 +26,7 @@ export default function AboutMe() {
 
             <Divider />
             <p className="infoitems">
-                <b>Listening to</b> <br />
-                Dayglow, Daniel Caesar, Rex Orange County, Bon Iver <br />
-                <br /> <b>Hobbies</b> <br />
+                <b>Hobbies</b> <br />
                 Hiking the Adirondacks, Jazz Piano, Road Running <br />
                 <br /> <b>Book of 2020</b> <br />
                 <i>The Undoing Project</i> by Michael Lewis <br />

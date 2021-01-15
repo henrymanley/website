@@ -5,6 +5,9 @@ import '../css/App.css';
 function Parts() {
     return (
         <Particles id="particles-js"
+                   style={{
+                       minHeight: '500vh'
+                   }}
                    canvasClassName="back"
                    params={{
                        particles: {

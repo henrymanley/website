@@ -16,23 +16,23 @@ export default function AboutMe() {
                 width: '45%',
                 borderRadius:'1%'}}>
                 <div style={{
-                    marginTop:'auto',
-                    marginBottom:'auto',
+                    marginTop:'40px',
+                    marginRight: '30px',
                     paddingTop: '10px',
                 }}>
                     <img className="image" alt="Headshot" src={headshot}  style={{
                         marginLeft: '30px',
                         marginReft: '30px',
                         borderRadius:'50%',
-                        width: '200px',
-                        height: '200px',
+                        width: '160px',
+                        height: '160px',
                         border: '3px solid black',
                     }} />
                     <img className="image" alt="Cornell Logo" src={cornell}  style={{
                         marginLeft: '30px',
                         borderRadius:'50%',
-                        width: '200px',
-                        height: '200px'
+                        width: '160px',
+                        height: '160px'
                     }} />
                 </div>
             </div>

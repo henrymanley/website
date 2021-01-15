@@ -5,6 +5,7 @@ import Tab from "./components/Tab";
 import FootInfo from "./components/FootInfo";
 import Carousel from "./components/Carousel";
 import Particles from "./components/Particles";
+import VertCaro from "./components/VertCaro";
 
 const theme = createMuiTheme({
     typography: {
@@ -18,7 +19,7 @@ function App() {
   return (
           <ThemeProvider theme={theme}>
               <div className="App">
-                  <Particles className="particles" />
+                  <Particles classname="particle-canvas" />
                   <div style={{
                       position: "absolute",
                       top: 0,
@@ -29,7 +30,7 @@ function App() {
                       <header>
                           <MainScreen />
                       </header>
-                      <Carousel className="carousel" />
+                      <VertCaro />
                       <Tab />
                       <footer className="App-footer">
                           <FootInfo />
