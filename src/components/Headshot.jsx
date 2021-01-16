@@ -43,7 +43,7 @@ export default function AboutMe() {
                     marginRight: '15px',
                 }}>
                     <h3>
-                        <b>Education</b>
+                        <b>Education 🎓</b>
                     </h3>
 
                     <p>
@@ -53,10 +53,10 @@ export default function AboutMe() {
                         Policy Analysis and Management
                     </p>
 
-                    <h3><b>Hometown</b></h3>
+                    <h3><b>Hometown 🏠</b></h3>
                     <p>Delmar, NY</p>
 
-                    <h3><b>Current Position</b></h3>
+                    <h3><b>Current Position 🔨</b></h3>
                     Research Assistant for<br /> <a href="https://www.nber.org/people/douglas_miller?page=1&perPage=50">Dr. Douglas Miller</a>
                 </Typography>
             </div>

@@ -25,7 +25,7 @@ class Caro extends React.Component {
                     marginLeft: 'auto',
                     marginRight: 'auto',
                     marginBottom: '30px',
-                    marginTop: '150px'
+                    marginTop: '30px'
                 }}>
                     <AboutMe />
                 </div>

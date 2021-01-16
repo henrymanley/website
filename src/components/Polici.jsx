@@ -45,13 +45,13 @@ export default function AboutMe() {
                 }}>
                     <p> <a href="https://www.polici.org/"> Check Us Out </a> 🚀</p>
                     <p> <a href="https://www.polici.org/welcome">Get Our Newsletter</a> 📨</p>
-                    <p>Polici In The News 👀</p>
                 </div>
                     <div style={{width:'50%', overflow: 'hidden', backgroundColor: 'blue'}}>
                         <a href="https://www.tassakul.com/" className="image">
                             <img  alt ="Polici Cartoon" src={person} style={{
                                 width: '300px',
                                 height: '150px',
+                                bottom: '2px',
                                 position: 'fixed'
                             }} />
                         </a>

@@ -3,12 +3,10 @@ import Typography from '@material-ui/core/Typography';
 import '../css/AboutMe.css';
 import Chip from '@material-ui/core/Chip';
 import Divider from '@material-ui/core/Divider';
-import Highlighter from "react-highlight-words";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import IconButton from '@material-ui/core/IconButton';
-import Headshot from "./Headshot";
 
 export default function AboutMe() {
     return (
@@ -18,10 +16,10 @@ export default function AboutMe() {
             marginRight: 'auto'
         }}
         >
-            <h1>Hi there.</h1>
+            <h1>Hi there...</h1>
             <p>My name’s Henry and I am a Junior at Cornell University studying
                 Policy Analysis and Management. I am interested in data science,
-                entrepreneurship, and causal inference.
+                causal inference, and entrepreneurship.
             </p>
 
             <Divider />

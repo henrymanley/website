@@ -8,12 +8,12 @@ body {
 }
 
 a:link {
-  color: #5465FF;
+  color: #000000;
 }
 
 /* visited link */
 a:visited {
-  color: #5465FF;
+  color: #000000;
 }
 
 /* mouse over link */
@@ -26,9 +26,4 @@ a:active {
   color: #E03616;
 }
 
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
