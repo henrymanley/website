@@ -40,7 +40,7 @@ class Caro extends React.Component {
                     width: '550px',
                     marginLeft: 'auto',
                     marginRight: 'auto',
-                    marginBottom: '50px'}}>
+                    marginBottom: '120px'}}>
                     <Polici />
                 </div>
             </div>
