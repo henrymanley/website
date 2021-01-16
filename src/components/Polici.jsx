@@ -13,16 +13,25 @@ export default function AboutMe() {
                 marginRight: 'auto'
             }}
             >
-                <a href="https://www.polici.org/" className="image">
-                    <img  alt ="Polici Logo" src={asset} style={{
-                        width: '147px',
-                        height: '60px',
-                        borderRadius:15,
+                <div>
+                    <a href="https://www.polici.org/" className="image">
+                        <img  alt ="Polici Logo" src={asset} style={{
+                            width: '147px',
+                            height: '60px',
+                            borderRadius:15,
+                            padding: '10px',
+                            margin:'auto',
+                            float: 'left'
+                        }} />
+                    </a>
+                    <div style={{
+                        textAlign: 'right',
                         padding: '10px'
-                    }} />
-                </a>
+                    }}><i>Co-Founder</i></div>
+                </div>
 
-                <p> <i>Bringing Data to Your Day In Under Three Minutes.</i></p>
+                <div style={{clear:'both'}}></div>
+                    <p> <i>Bringing Data to Your Day In Under Three Minutes.</i></p>
                 <Divider />
                 <p>
                     We build ML algorithms to translate academic research findings.
@@ -43,9 +52,7 @@ export default function AboutMe() {
                             <img  alt ="Polici Cartoon" src={person} style={{
                                 width: '300px',
                                 height: '150px',
-                                right: '20px',
-                                bottom: '100px',
-                                position: 'absolute'
+                                position: 'fixed'
                             }} />
                         </a>
 

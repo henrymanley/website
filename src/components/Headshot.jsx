@@ -53,10 +53,11 @@ export default function AboutMe() {
                         Policy Analysis and Management
                     </p>
 
+                    <h3><b>Hometown</b></h3>
+                    <p>Delmar, NY</p>
+
                     <h3><b>Current Position</b></h3>
-                    Research Assistant for <a href="https://www.nber.org/people/douglas_miller?page=1&perPage=50">Dr. Douglas Miller</a>
-                    <h3><b>Current Personal Project</b></h3>
-                    <p>Building a newsletter platform from scratch.</p>
+                    Research Assistant for<br /> <a href="https://www.nber.org/people/douglas_miller?page=1&perPage=50">Dr. Douglas Miller</a>
                 </Typography>
             </div>
 

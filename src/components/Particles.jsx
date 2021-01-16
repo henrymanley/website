@@ -6,17 +6,13 @@ function Parts() {
     return (
         <Particles id="particles-js"
                    style={{
-                       minHeight: '500vh'
+                       minHeight: '220vh'
                    }}
                    canvasClassName="back"
                    params={{
                        particles: {
                            number: {
                                value: 200,
-                               density: {
-                                   enable: true,
-                                   value_area: 1000
-                               }
                            },
                            shape: {
                                type: 'circle',
@@ -26,21 +22,11 @@ function Parts() {
                                }
                            },
                            color: {
-                               value: '#E03616'
-                           },
-                           opacity: {
-                               value: 0.4,
-                               anim: {
-                                   enable: true
-                               }
+                               value: ['#E03616', '#06A77D', '#5465FF', '#772D8B', '#d7b002']
                            },
                            size: {
                                value: 3,
                                random: true,
-                               anim: {
-                                   enable: true,
-                                   speed: 3
-                               }
                            },
                            line_linked: {
                                enable: true,

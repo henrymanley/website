@@ -3,7 +3,6 @@ import MainScreen from './components/MainScreen';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import Tab from "./components/Tab";
 import FootInfo from "./components/FootInfo";
-import Carousel from "./components/Carousel";
 import Particles from "./components/Particles";
 import VertCaro from "./components/VertCaro";
 

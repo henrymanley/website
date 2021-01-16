@@ -3,50 +3,49 @@ import AboutMe from "./AboutMe";
 import Headshot from "./Headshot";
 import Polici from "./Polici";
 import '../css/AboutMe.css';
-import {
-    CarouselProvider,
-    Slider,
-    Slide,
-    ButtonBack,
-    ButtonNext
-} from "pure-react-carousel";
-import "pure-react-carousel/dist/react-carousel.es.css";
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+AOS.init();
 
-export default class extends React.Component {
+
+class Caro extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            name: 'React'
+        };
+        AOS.init({ duration : 2000});
+    }
+
     render() {
         return (
-            <CarouselProvider
-                naturalSlideWidth={50}
-                naturalSlideHeight={20}
-                orientation={"vertical"}
-                totalSlides={3}
-                visibleSlides={3}>
-
-                <div >
-                    <Slider style={{ marginBottom: '30px', marginTop: '30px'
-                    }}>
-                        <Slide index={0} style={{
-                            width: '560px',
-                            height: '400px',
-                            marginLeft: 'auto',
-                            marginRight: 'auto'
-                        }}><AboutMe /></Slide>
-                        <Slide index={1} style={{
-                            width: '560px',
-                            height: '400px',
-                            marginLeft: 'auto',
-                            marginRight: 'auto'
-                        }}><Headshot /></Slide>
-                        <Slide index={2} style={{
-                            width: '560px',
-                            height: '400px',
-                            marginLeft: 'auto',
-                            marginRight: 'auto',
-                        }}><Polici /></Slide>
-                    </Slider>
+            <div>
+                <div data-aos="fade-up-right" className="aboutblock" style={{
+                    width: '550px',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                    marginBottom: '30px',
+                    marginTop: '150px'
+                }}>
+                    <AboutMe />
                 </div>
-
-            </CarouselProvider>
+                <div data-aos="fade-up-left" className="aboutblock" style={{
+                    width: '550px',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                    marginBottom: '30px'}}>
+                    <Headshot />
+                </div>
+                <div data-aos="fade-up-right" className="aboutblock" style={{
+                    width: '550px',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                    marginBottom: '50px'}}>
+                    <Polici />
+                </div>
+            </div>
         );
     }
 }
+
+export default Caro;
