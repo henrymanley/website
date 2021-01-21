@@ -21,26 +21,34 @@ class Caro extends React.Component {
         return (
             <div>
                 <div data-aos="fade-up-right" className="aboutblock" style={{
-                    width: '550px',
+                    width: '60%',
+                    maxwidth: '600px',
                     marginLeft: 'auto',
                     marginRight: 'auto',
                     marginBottom: '30px',
-                    marginTop: '30px'
+                    marginTop: '30px',
+                    minWidth:'330px'
                 }}>
                     <AboutMe />
                 </div>
                 <div data-aos="fade-up-left" className="aboutblock" style={{
-                    width: '550px',
+                    width: '60%',
+                    maxwidth: '600px',
                     marginLeft: 'auto',
                     marginRight: 'auto',
-                    marginBottom: '30px'}}>
+                    marginBottom: '30px',
+                    marginTop: '30px',
+                    minWidth:'330px'}}>
                     <Headshot />
                 </div>
                 <div data-aos="fade-up-right" className="aboutblock" style={{
-                    width: '550px',
+                    width: '60%',
+                    maxwidth: '600px',
                     marginLeft: 'auto',
                     marginRight: 'auto',
-                    marginBottom: '120px'}}>
+                    marginBottom: '30px',
+                    marginTop: '30px',
+                    minWidth:'330px'}}>
                     <Polici />
                 </div>
             </div>

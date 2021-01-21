@@ -49,8 +49,9 @@ export default function AboutMe() {
                     <div style={{width:'50%', overflow: 'hidden', backgroundColor: 'blue'}}>
                         <a href="https://www.tassakul.com/" className="image">
                             <img  alt ="Polici Cartoon" src={person} style={{
-                                width: '300px',
-                                height: '150px',
+                                width: '50%',
+                                minWidth:'100px',
+                                maxWidth:"330px",
                                 bottom: '2px',
                                 position: 'fixed'
                             }} />

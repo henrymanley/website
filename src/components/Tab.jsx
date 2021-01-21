@@ -62,9 +62,9 @@ export default function SimpleTabs() {
     return (
         <div className={classes.root}>
             <AppBar position="static">
-                <Tabs value={value} onChange={handleChange} TabIndicatorProps={{style: {background:'#E03616'}}}
+                <Tabs value={value} centered={true} onChange={handleChange} TabIndicatorProps={{style: {background:'white'}}}
                 style={{
-                    backgroundColor: "#2BA0BB",
+                    backgroundColor: "#EE1D52",
                     color: '#FFFFFC'
                 }}>
                     <Tab label="Data Projects" {...a11yProps(0)} />
