@@ -69,7 +69,7 @@ export default function SimpleTabs() {
                 }}>
                     <Tab label="Data Projects" {...a11yProps(0)} />
                     <Tab label="Work Experience" {...a11yProps(1)} />
-                    <Tab label="Contact Me" {...a11yProps(2)} />
+                    <Tab label="Contact" {...a11yProps(2)} />
                 </Tabs>
             </AppBar>
             <TabPanel value={value} index={0}>

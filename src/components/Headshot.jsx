@@ -27,13 +27,15 @@ export default function AboutMe() {
                         minWidth:'100px',
                         width: '70%',
                         border: '3px solid black',
-                        marginBottom:'30px'
+                        marginBottom:'30px',
+                        maxWidth:'200px'
                     }} />
                     <img className="image" alt="Cornell Logo" src={cornell}  style={{
                         marginLeft: '30px',
                         borderRadius:'50%',
                         minWidth:'100px',
                         width: '70%',
+                        maxWidth:'200px'
                     }} />
                 </div>
             </div>

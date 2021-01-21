@@ -20,20 +20,20 @@ class Caro extends React.Component {
     render() {
         return (
             <div>
-                <div data-aos="fade-up-right" className="aboutblock" style={{
+                <div data-aos="fade-up-right"  style={{
                     width: '60%',
-                    maxwidth: '600px',
+                    maxwidth: '500px',
                     marginLeft: 'auto',
                     marginRight: 'auto',
                     marginBottom: '30px',
                     marginTop: '30px',
-                    minWidth:'330px'
+                    minWidth:'330px',
                 }}>
                     <AboutMe />
                 </div>
-                <div data-aos="fade-up-left" className="aboutblock" style={{
+                <div data-aos="fade-up-left" style={{
                     width: '60%',
-                    maxwidth: '600px',
+                    maxwidth: '500px',
                     marginLeft: 'auto',
                     marginRight: 'auto',
                     marginBottom: '30px',
@@ -41,9 +41,9 @@ class Caro extends React.Component {
                     minWidth:'330px'}}>
                     <Headshot />
                 </div>
-                <div data-aos="fade-up-right" className="aboutblock" style={{
+                <div data-aos="fade-up-right" style={{
                     width: '60%',
-                    maxwidth: '600px',
+                    maxwidth: '500px',
                     marginLeft: 'auto',
                     marginRight: 'auto',
                     marginBottom: '30px',
