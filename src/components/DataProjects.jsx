@@ -8,8 +8,8 @@ export default function DataProjects(){
     return (
         <div id="dataprojects">
             <Typography style = {{
-                marginLeft: 'auto',
-                marginRight: 'auto',
+                margin:'auto',
+                maxWidth:'900px',
                 backgroundColor: 'rgb(255, 255, 255)',
                 padding: '10px'
 

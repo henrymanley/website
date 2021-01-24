@@ -8,6 +8,16 @@ import person from '../assets/person.png';
 export default function AboutMe() {
     return (
         <div className ="aboutblock">
+            <div style={{height:'15px',
+                position:'absolute',
+                width:'100%',
+                top:'0px',
+                backgroundColor:'#A40E4C',
+                marginLeft:'-10px',
+                borderTopLeftRadius:'15px',
+                borderTopRightRadius:'15px'
+            }}></div>
+
             <Typography style = {{
                 marginLeft: '12px',
                 marginRight: 'auto'
@@ -21,12 +31,14 @@ export default function AboutMe() {
                             borderRadius:15,
                             padding: '10px',
                             margin:'auto',
-                            float: 'left'
+                            float: 'left',
+                            marginTop:'5px'
                         }} />
                     </a>
                     <div style={{
                         textAlign: 'right',
-                        padding: '10px'
+                        padding: '10px',
+                        marginTop:'20px'
                     }}><i>Co-Founder</i></div>
                 </div>
 
@@ -53,7 +65,8 @@ export default function AboutMe() {
                                 minWidth:'100px',
                                 maxWidth:"330px",
                                 bottom: '2px',
-                                position: 'fixed'
+                                position: 'fixed',
+                                filter: 'grayscale(100%)'
                             }} />
                         </a>
 

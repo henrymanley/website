@@ -9,6 +9,14 @@ import '../css/App.css';
 export default function AboutMe() {
     return (
         <div className ="aboutblock">
+            <div style={{height:'15px',
+            position:'absolute',
+            width:'100%',
+            top:'0px',
+            backgroundColor:'#F95738',
+            marginLeft:'-10px',
+            borderTopLeftRadius:'15px',
+                borderTopRightRadius:'15px'}}></div>
 
             <div style={{
                 top:'0px',
@@ -35,7 +43,8 @@ export default function AboutMe() {
                         borderRadius:'50%',
                         minWidth:'100px',
                         width: '70%',
-                        maxWidth:'200px'
+                        maxWidth:'200px',
+                        filter: 'grayscale(100%)'
                     }} />
                 </div>
             </div>

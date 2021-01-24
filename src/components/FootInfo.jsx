@@ -6,8 +6,9 @@ export default function FootInfo() {
         <div>
             <Divider />
             <Typography style={{
-                marginLeft: '36px',
-                paddingTop: '15px'
+                margin:'auto',
+                marginTop: '20px',
+                textAlign:'center'
             }}>
                 <i>Created By Henry Manley © 2021 </i>
             </Typography>

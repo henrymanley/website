@@ -9,14 +9,14 @@ import IconButton from '@material-ui/core/IconButton';
 
 export default function ContactMe(){
     return (
-        <div id="contact">
-            <Typography style = {{
-                marginLeft: '12px',
-                marginRight: 'auto',
-                backgroundColor: 'rgb(255, 255, 255)'
-            }}
-            >
-                <Box textAlign="left" fontWeight="fontWeightBold" fontSize="h5.fontSize" m={1}>
+        <div id="contact" style={{width:'50%',
+            alignContent:'center',
+            textAlign:'center',
+            margin:'auto',
+        marginTop: '40px'}}>
+            <Typography>
+                <Box textAlign="left" fontWeight="fontWeightBold" fontSize="h5.fontSize" style={{alignContent:'center',
+                    textAlign:'center',}} >
                     Contact ✉️
                     <p style={{ fontSize: "14px"}}
                     >Email: <a href ="mailto:hjm67@cornell.edu">hjm67@cornell.edu</a></p>

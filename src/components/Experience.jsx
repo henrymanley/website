@@ -8,8 +8,8 @@ export default function TextAlignment() {
     return (
         <div id="experience">
             <Typography style = {{
-                marginLeft: 'auto',
-                marginRight: 'auto',
+                margin:'auto',
+                maxWidth:'900px',
                 backgroundColor: 'rgb(255, 255, 255)',
                 padding: '10px'
             }}
@@ -54,6 +54,10 @@ export default function TextAlignment() {
                         <a href={"https://www.polici.org/"}>Polici</a>
                     </p>
                     <Chip label="Python" />
+                    <Chip label="React" />
+                    <Chip label="CSS" />
+                    <Chip label="HTML" />
+                    <Chip label="NodeJS" />
                     <Chip label="Stata" />
                 </Box>
 
@@ -67,7 +71,7 @@ export default function TextAlignment() {
                     >
                         <li>Founded a start-up that uses a recurrent neural network to summarize and visualize academic research findings to lay audiences.</li>
                         <li>Raised seed funding to build ML algorithms, team of 15, and sign clients at Cornell, Duke, and the US Dept. of HHS.</li>
-                        <li>Developed in-house automated workflows in Python and SQL to boost newsletter KPIs and recommend users specific content.</li>
+                        <li>eveloped in-house web application in React and NodeJS for newsletter submission, dissemination, and subscription.</li>
                         <li>Accelerated business in Life Changing Labs Incubator, Blackstone Techstars Fellowship, and Cornell eLab Accelerator.</li>
                     </ul>
                     <Divider />

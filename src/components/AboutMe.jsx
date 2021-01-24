@@ -11,6 +11,15 @@ import IconButton from '@material-ui/core/IconButton';
 export default function AboutMe() {
     return (
         <div className ="aboutblock">
+            <div style={{height:'15px',
+                position:'absolute',
+                width:'100%',
+                top:'0px',
+                backgroundColor:'#51CB20',
+                marginLeft:'-10px',
+                borderTopLeftRadius:'15px',
+                borderTopRightRadius:'15px'}}></div>
+
         <Typography style = {{
             marginLeft: '12px',
             marginRight: 'auto'

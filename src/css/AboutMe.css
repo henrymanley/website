@@ -6,10 +6,14 @@ div.aboutblock{
     padding: 10px;
     border-radius: 15px;
     font-family: "JetBrains Mono";
+    box-shadow: -2px -2px 31px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -2px 31px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -2px 31px -4px rgba(0,0,0,0.75);
 }
 
 .aboutblock:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.03);
+    transition: all 300ms;
 }
 
 p.infoitems{

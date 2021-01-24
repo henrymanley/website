@@ -19,7 +19,7 @@ class Caro extends React.Component {
 
     render() {
         return (
-            <div>
+            <div style={{maxWidth:'1300px', margin:'auto'}}>
                 <div data-aos="fade-up-right"  style={{
                     width: '60%',
                     maxwidth: '500px',
@@ -27,7 +27,7 @@ class Caro extends React.Component {
                     marginRight: 'auto',
                     marginBottom: '30px',
                     marginTop: '30px',
-                    minWidth:'330px',
+                    minWidth:'350px',
                 }}>
                     <AboutMe />
                 </div>
@@ -38,7 +38,7 @@ class Caro extends React.Component {
                     marginRight: 'auto',
                     marginBottom: '30px',
                     marginTop: '30px',
-                    minWidth:'330px'}}>
+                    minWidth:'350px'}}>
                     <Headshot />
                 </div>
                 <div data-aos="fade-up-right" style={{
@@ -46,9 +46,10 @@ class Caro extends React.Component {
                     maxwidth: '500px',
                     marginLeft: 'auto',
                     marginRight: 'auto',
-                    marginBottom: '30px',
+                    marginBottom: '80px',
                     marginTop: '30px',
-                    minWidth:'330px'}}>
+                    minHeight: '300px',
+                    minWidth:'350px',}}>
                     <Polici />
                 </div>
             </div>

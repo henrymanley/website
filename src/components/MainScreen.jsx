@@ -17,14 +17,14 @@ const useStyles = makeStyles((theme) => ({
         marginLeft: -12
     },
     appBarTransparent:{
-        backgroundColor:'rgb(7, 7, 7)',
+        backgroundColor: "#4059AD",
         minHeight: 65,
         marginLeft: "auto",
         marginRight: "auto"
     },
     navBar:{
         color: 'rgb(245, 239, 237)',
-        backgroundColor: 'rgb(7, 7, 7)'
+        backgroundColor: '#4059AD'
     }
 }
 ));
@@ -41,7 +41,8 @@ export default function OutlinedButtons() {
                         marginRight: 'auto',
                         marginLeft: 'auto'
                     }}>
-                        Henry Manley
+                        <a href="https://www.henrymanley.com/" style={{color:'white',  textDecoration:'none',}}>Henry Manley</a>
+
                     </Typography>
                 </Toolbar>
             </AppBar>
