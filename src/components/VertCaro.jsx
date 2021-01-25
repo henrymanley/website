@@ -2,6 +2,7 @@ import React from "react";
 import AboutMe from "./AboutMe";
 import Headshot from "./Headshot";
 import Polici from "./Polici";
+import ContactCaro from "./ContactCaro";
 import '../css/AboutMe.css';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
@@ -52,6 +53,18 @@ class Caro extends React.Component {
                     minWidth:'350px',}}>
                     <Polici />
                 </div>
+                <div data-aos="fade-up-left" style={{
+                    width: '60%',
+                    maxwidth: '500px',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                    marginBottom: '80px',
+                    marginTop: '30px',
+                    minHeight: '300px',
+                    minWidth:'350px',}}>
+                    <ContactCaro />
+                </div>
+
             </div>
         );
     }

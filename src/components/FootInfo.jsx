@@ -10,7 +10,7 @@ export default function FootInfo() {
                 marginTop: '20px',
                 textAlign:'center'
             }}>
-                <i>Created By Henry Manley © 2021 </i>
+                <i>Created By Henry Manley © 2021 🛠️</i>
             </Typography>
         </div>
     );

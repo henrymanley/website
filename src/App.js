@@ -1,11 +1,13 @@
 import './css/App.css';
-import MainScreen from './components/MainScreen';
-import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import Tab from "./components/Tab";
-import FootInfo from "./components/FootInfo";
-import VertCaro from "./components/VertCaro";
+import HomePage from './components/HomePage';
+import { Switch, BrowserRouter as Router, Route, withRouter, Redirect } from "react-router-dom";
+import DataProjects from "./components/DataProjects";
+import Experience from './components/Experience';
+import {createMuiTheme, ThemeProvider} from "@material-ui/core/styles";
+import React from "react";
 
-const theme = createMuiTheme({
+
+const Theme = createMuiTheme({
     typography: {
         fontFamily: [
             'JetBrains Mono',
@@ -13,24 +15,22 @@ const theme = createMuiTheme({
         ].join(','),
     },});
 
+
 function App() {
   return (
-      <div className="App">
-          <ThemeProvider theme={theme}>
-              <div className="App-header">
-                  <header>
-                      <MainScreen />
-                  </header>
-              </div>
 
-                      <VertCaro />
-                      <Tab />
-                      <footer className="App-footer">
-                          <FootInfo />
-                      </footer>
-          </ThemeProvider>
-              </div>
+          <Router>
+              <Switch>
+                  <ThemeProvider theme={Theme}>
+                     <div>
+                         <Route exact path="/" component={withRouter(HomePage)}></Route>
+                         <Route exact path="/Experience" component={withRouter(Experience)}></Route>
+                         <Route exact path="/Projects" component={withRouter(DataProjects)}></Route>
 
+                    </div>
+                  </ThemeProvider>
+              </Switch>
+          </Router>
 
   );
 }

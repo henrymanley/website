@@ -12,7 +12,7 @@ export default function AboutMe() {
                 position:'absolute',
                 width:'100%',
                 top:'0px',
-                backgroundColor:'#A40E4C',
+                backgroundColor:'#CD0D5D',
                 marginLeft:'-10px',
                 borderTopLeftRadius:'15px',
                 borderTopRightRadius:'15px'
