@@ -34,3 +34,23 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+
+a:link {
+  color: #000000;
+}
+
+/* visited link */
+a:visited {
+  color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+  font-weight: bold;
+}
+
+/* selected link */
+a:active {
+  color: #E03616;
+}

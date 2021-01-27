@@ -23,10 +23,9 @@ function App() {
               <Switch>
                   <ThemeProvider theme={Theme}>
                      <div>
-                         <Route exact path="/" component={withRouter(HomePage)}></Route>
-                         <Route exact path="/Experience" component={withRouter(Experience)}></Route>
-                         <Route exact path="/Projects" component={withRouter(DataProjects)}></Route>
-
+                         <Route exact path="/" component={HomePage}></Route>
+                         <Route exact path="/Experience" component={Experience}></Route>
+                         <Route exact path="/Projects" component={DataProjects}></Route>
                     </div>
                   </ThemeProvider>
               </Switch>

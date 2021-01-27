@@ -5,6 +5,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Slide from '@material-ui/core/Slide';
 import {BrowserRouter as Router, Link, withRouter} from "react-router-dom";
+import Tab from "./Tab";
+import '../css/App.css';
 
 import PropTypes from 'prop-types';
 
@@ -68,8 +70,12 @@ class MainScreen extends React.Component {
         return (
             <div>
                 <HideOnScroll {...props}>
-                    <AppBar  className={useStyles}>
+                    <AppBar  className={useStyles} style={{backgroundColor:'#000000'}}>
                         <Toolbar >
+
+                            <div style={{position:'absolute'}}>
+                                <Tab />
+                            </div>
                             <div style={{
                                 margin:'auto',
                                 width:'90%',
@@ -80,31 +86,14 @@ class MainScreen extends React.Component {
                                 marginTop:'10px',
                                 marginBottom:'10px',
                                 // backgroundColor:'#000000'
-
-
                             }}>
-                                <div style={{textAlign:'left', width:'50%', float:'left', minWidth:'240px'}}>
-                                    <a href="https://www.henrymanley.com/" style={{color:'white', fontSize:'40px', textDecoration:'none'}}>Henry Manley &nbsp;</a>
 
+
+                                <div style={{textAlign:'center', minWidth:'240px', width:'50%', margin:'auto'}}>
+
+                                        <a href="https://www.henrymanley.com/" style={{color:"white", textDecoration:'none', fontSize:'40px'}}>Henry Manley</a>
                                 </div>
 
-                                <div style={{textAlign:'right', minWidth:'100px', display: 'inline-flex'}}>
-                                    <Router>
-                                        <Link to="./Experience">
-                                            <p style={{color:'white', fontSize:'20px', textDecoration:'none', float:'left'}}>
-                                                <a onClick={this.handleClick}>Work Experience &nbsp; &nbsp;</a>
-                                            </p>
-                                        </Link>
-                                    </Router>
-
-                                    <Router>
-                                        <Link to="./Projects">
-                                            <p style={{color:'white', fontSize:'20px', textDecoration:'none', float:'left'}}>
-                                                <a onClick={this.handleClick1}>Data Projects</a>
-                                            </p>
-                                        </Link>
-                                    </Router>
-                                </div>
                             </div>
                         </Toolbar>
                     </AppBar>

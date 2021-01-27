@@ -23,7 +23,6 @@ class HomePage extends React.Component {
                             <MainScreen/>
                         </header>
                     </div>
-
                     <VertCaro />
                     {/*<Tab />*/}
                     <footer className="App-footer">

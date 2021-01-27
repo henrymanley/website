@@ -45,7 +45,7 @@ export default function DataProjects(){
 
                     <div className="aboutblock" style={{marginBottom:'40px'}}>
                         <div style={{width:'100%', marginLeft:'14px'}}>
-                            <h2> 🐸 Frogger </h2>
+                            <h2> 👾 Frogger </h2>
 
                             <p style={{
                                 fontStyle:'italic',
@@ -64,10 +64,9 @@ export default function DataProjects(){
                             </ul>
                         </div>
                         </div>
-
                     <div className="aboutblock" style={{marginBottom:'40px'}}>
                         <div style={{width:'100%', marginLeft:'14px'}}>
-                            <h2>🦠 Incubating fear? How news outlets encourage and spread talk of global disease. </h2>
+                            <h2>🧬 Incubating fear? How news outlets encourage and spread talk of global disease. </h2>
 
                             <p style={{
                                 fontStyle:'italic',
