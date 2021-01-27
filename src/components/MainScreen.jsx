@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
         fontSize: 35,
     },
     appBarTransparent:{
-        backgroundColor: "#4059AD",
+        backgroundColor: "#000000",
         minHeight: 65,
         margin:'auto',
         paddingBottom: '10px'
@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     },
     navBar:{
         color: 'rgb(245, 239, 237)',
-        backgroundColor: '#4059AD',
+        backgroundColor: '#000000',
 
     }
 }
@@ -78,7 +78,8 @@ class MainScreen extends React.Component {
                                 flexFlow: 'row wrap',
                                 whiteSpace: 'nowrap',
                                 marginTop:'10px',
-                                marginBottom:'10px'
+                                marginBottom:'10px',
+                                // backgroundColor:'#000000'
 
 
                             }}>

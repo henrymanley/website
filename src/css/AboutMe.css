@@ -19,3 +19,37 @@ div.aboutblock{
 p.infoitems{
     font-size: 12px;
 }
+
+div.shadowt{
+   background-color: #626262;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.meter {
+    height: 12px;
+    position: relative;
+    background: #CD0D5D;
+    overflow: hidden;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.meter span {
+    display: block;
+    height: 100%;
+
+}
+
+.progress {
+    background-color: #51CB20;
+    animation: progressBar 3s ease-in-out;
+    animation-fill-mode:both;
+}
+
+@keyframes progressBar {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
