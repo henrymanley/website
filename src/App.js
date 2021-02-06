@@ -1,11 +1,9 @@
 import './css/App.css';
 import HomePage from './components/HomePage';
-import { Switch, BrowserRouter as Router, Route, withRouter, Redirect } from "react-router-dom";
+import { Switch, BrowserRouter as Router, Route} from "react-router-dom";
 import DataProjects from "./components/DataProjects";
 import Experience from './components/Experience';
 import {createMuiTheme, ThemeProvider} from "@material-ui/core/styles";
-import React from "react";
-
 
 const Theme = createMuiTheme({
     typography: {

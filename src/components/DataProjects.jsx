@@ -36,9 +36,9 @@ export default function DataProjects(){
 
                     <div className="shadowt">
                         <h1  style={{fontSize:'4vw', color:'white'}}>Data Projects 📈 </h1>
-                        <div className="meter">
-                            <span style={{width:"80%"}}> <span className="progress"></span></span>
-                        </div>
+                        {/*<div className="meter">*/}
+                        {/*    <span style={{width:"80%"}}> <span className="progress"></span></span>*/}
+                        {/*</div>*/}
                     </div>
                     <br />
 

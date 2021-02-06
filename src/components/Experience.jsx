@@ -35,9 +35,9 @@ export default function TextAlignment() {
                     >
                         <div className="shadowt">
                             <h1  style={{fontSize:'4vw', color:'white'}}>Work Experience 🔬 </h1>
-                            <div className="meter">
-                                <span style={{width:"80%"}}> <span className="progress"></span></span>
-                            </div>
+                            {/*<div className="meter">*/}
+                            {/*    <span style={{width:"80%"}}> <span className="progress"></span></span>*/}
+                            {/*</div>*/}
                         </div>
                         <br />
 
@@ -133,7 +133,7 @@ export default function TextAlignment() {
                                 <p style={{
                                     fontStyle:'italic',
                                     fontSize: "12px"}}>
-                                    Dr. Christopher Wildeman, Cornell Department of Policy Analysis and Management, Ithaca, NY</p>
+                                    Dr. Peter Enns, Roper Center for Public Opinion Research, Ithaca, NY</p>
                                 <Divider />
                                 <br />
                                 <Chip label="Stata" />

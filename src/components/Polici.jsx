@@ -56,7 +56,7 @@ export default function AboutMe() {
                     float: 'left'
                 }}>
                     <p> <a href="https://www.polici.org/"> Check Us Out </a> 🚀</p>
-                    <p> <a href="https://www.polici.org/welcome">Get Our Newsletter</a> 📨</p>
+                    <p> <a href="https://www.polici.org/subscribe">Get Our Newsletter</a> 📨</p>
                 </div>
                     <div style={{width:'50%', overflow: 'hidden', backgroundColor: 'blue'}}>
                         <a href="https://www.tassakul.com/" className="image">
