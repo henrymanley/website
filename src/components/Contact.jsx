@@ -33,7 +33,7 @@ export default function ContactMe(){
                                 color: 'black'
                             }}/>
                         </IconButton>
-                        <IconButton target="_blank" href="https://github.com/hmhacks">
+                        <IconButton target="_blank" href="https://github.com/henrymanley">
                             <GitHubIcon style = {{
                                 padding: "10px 5px",
                                 color: 'black'

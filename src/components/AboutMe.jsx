@@ -45,7 +45,7 @@ export default function AboutMe() {
                 <Chip label="SQL" />
                 <Chip label="HTML" />
                 <Chip label="CSS" />
-                <Chip label="React" />
+                <Chip label="React.js" />
                 <br />
                 <p>
                     <IconButton target="_blank" href="mailto:hjm67@cornell.edu">
@@ -54,7 +54,7 @@ export default function AboutMe() {
                             color: 'black'
                         }}/>
                     </IconButton>
-                    <IconButton target="_blank" href="https://github.com/hmhacks">
+                    <IconButton target="_blank" href="https://github.com/henrymanley">
                         <GitHubIcon style = {{
                             padding: "10px 5px",
                             color: 'black'

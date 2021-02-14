@@ -84,7 +84,7 @@ export default function TextAlignment() {
                                 <Chip label="React" />
                                 <Chip label="CSS" />
                                 <Chip label="HTML" />
-                                <Chip label="NodeJS" />
+                                <Chip label="Node.js" />
                                 <Chip label="Stata" />
 
                                 <ul style = {{
