@@ -40,6 +40,7 @@ export default function AboutMe() {
                 <br /> <b>Skills</b> <br />
                 <Chip  label="Python" />
                 <Chip label="Pandas" />
+                <Chip label="Java" />
                 <Chip label="R" />
                 <Chip label="Stata" />
                 <Chip label="SQL" />

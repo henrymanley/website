@@ -64,7 +64,7 @@ export default function TextAlignment() {
                                     <li>Cleaned, scored, and visualized never-seen-before metadata on War on Poverty programs in with Pandas and Stata.</li>
                                     <li>Designed and implemented dynamic merging and logistic regression algorithms using k-NN, tokenization, and cosine similarity.</li>
                                     <li>Harnessed NLP and bootstrapping techniques to identify potential mismatches, cluster proper matches, and score the model.</li>
-                                    <li>Built and optimized data pipeline with Python-Stata integration making queries to a Google Cloud Virtual Machine.</li>
+                                    <li>Engineered a data pipeline to and from a Stata-Python integrated Google Virtual Machine.</li>
                                 </ul>
                             </div>
                         </div>
@@ -118,9 +118,9 @@ export default function TextAlignment() {
                                     fontSize: "12px",
                                     textAlign: "left",
                                     paddingBottom:"12px"}}>
-                                    <li>Devised, coded, and computed statistical power on a survey conducted on vulnerable youths in the NYC Foster Care system.</li>
+                                    <li>Computed statistical power on a survey conducted on vulnerable youths in the NYC Foster Care system. </li>
                                     <li>Created paternal incarceration figures for the Annual Review of Criminology and Annual Review of Sociology in Stata.</li>
-                                    <li>Cleaned international incarceration datasets and performed statistical balance tests for regression analysis.</li>
+                                    <li>Cleaned incarceration panel data and performed statistical balance tests for regression analysis.</li>
                                 </ul>
                             </div>
                         </div>
@@ -136,15 +136,15 @@ export default function TextAlignment() {
                                     Dr. Peter Enns, Roper Center for Public Opinion Research, Ithaca, NY</p>
                                 <Divider />
                                 <br />
-                                <Chip label="Stata" />
+                                <Chip label="R" />
 
 
                                 <ul style = {{
                                     fontSize: "12px",
                                     textAlign: "left",
                                     paddingBottom:"12px"}}>
-                                    <li>Wrote dynamic R module that preprocessed and visualized text data from NORC midterm election panel data.</li>
-                                    <li>Generated research leads based on scorings, analyzed findings, and results published in the &nbsp;
+
+                                    <li>Programmed R module to visualize network of text from midterm election panel dataset; findings in the  &nbsp;
                                         <a href={"https://www.washingtonpost.com/politics/2020/03/16/democrats-named-biden-sanders-warren-their-top-picks-18-months-ago-what-did-primaries-change/"}>
                                             Washington Post.</a>
                                     </li>

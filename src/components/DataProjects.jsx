@@ -45,6 +45,29 @@ export default function DataProjects(){
 
                     <div className="aboutblock" style={{marginBottom:'40px'}}>
                         <div style={{width:'100%', marginLeft:'14px'}}>
+                            <h2> 🔍 Nowcasting Unemployment with Google Trends </h2>
+
+                            <p style={{
+                                fontStyle:'italic',
+                                fontSize: "12px"}}>
+                                Feb 2021 -</p>
+                            <Divider />
+                            <br />
+                            <Chip  label="Python" />
+                            <Chip  label="Stata" />
+
+                            <ul style = {{
+                                fontSize: "12px",
+                                textAlign: "left",
+                                paddingBottom:"12px"}}>
+                                <li>Built unsupervised state-industry level U-3 prediction model in Python, implementing Google Trends API and BLS API</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div className="aboutblock" style={{marginBottom:'40px'}}>
+                        <div style={{width:'100%', marginLeft:'14px'}}>
                             <h2> 👾 Frogger </h2>
 
                             <p style={{

@@ -1,6 +1,7 @@
 import React from "react";
 import AboutMe from "./AboutMe";
 import Headshot from "./Headshot";
+import MainProj from "./MainProj";
 import Polici from "./Polici";
 import ContactCaro from "./ContactCaro";
 import '../css/AboutMe.css';
@@ -42,6 +43,21 @@ class Caro extends React.Component {
                     minWidth:'350px'}}>
                     <Headshot />
                 </div>
+
+                <div data-aos="fade-up-right" style={{
+                    width: '60%',
+                    maxwidth: '500px',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                    marginBottom: '80px',
+                    marginTop: '30px',
+                    minHeight: '300px',
+                    minWidth:'350px',}}>
+                    <MainProj />
+                </div>
+
+
+
                 <div data-aos="fade-up-right" style={{
                     width: '60%',
                     maxwidth: '500px',
